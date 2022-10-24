@@ -1,0 +1,5 @@
+test
+*.vala~
+*.gitignore~
+myapp
+build/
