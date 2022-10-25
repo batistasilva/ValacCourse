@@ -8,7 +8,7 @@ public class Application : Gtk.Application {
 	}
 
 	protected override void activate () {
-		var window = new Jarvis.Window (this);
+		var window = new App7.Window (this);
 
 		add_window (window);
 	}

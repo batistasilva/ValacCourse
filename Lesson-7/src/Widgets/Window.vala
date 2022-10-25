@@ -1,4 +1,4 @@
-public class Jarvis.Window : Gtk.ApplicationWindow {
+public class App7.Window : Gtk.ApplicationWindow {
 	public GLib.Settings settings;
 
 	public Window (Application app) {
