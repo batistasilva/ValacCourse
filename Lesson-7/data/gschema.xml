@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
- <schema path="/com/github/alecaddd/jarvis/" id="com.github.alecaddd.jarvis" gettext-domain="jarvis">
+ <schema path="/com/github/batistasilva/app7/" id="com.github.batistasilva.app7" gettext-domain="app7">
 	<key name="pos-x" type="i">
 	 <default>360</default>
 	 <summary>Horizontal position</summary>
