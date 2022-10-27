@@ -1,4 +1,4 @@
-public class Jarvis.HeaderBar : Gtk.HeaderBar {
+public class App10.HeaderBar : Gtk.HeaderBar {
     construct {
         show_close_button = true;
 

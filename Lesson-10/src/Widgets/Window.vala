@@ -1,4 +1,4 @@
-public class Jarvis.Window : Gtk.ApplicationWindow {
+public class App10.Window : Gtk.ApplicationWindow {
 	public GLib.Settings settings;
 
 	public Window (Application app) {
@@ -12,7 +12,7 @@ public class Jarvis.Window : Gtk.ApplicationWindow {
 	 	window_position = Gtk.WindowPosition.CENTER;
 	 	set_default_size (350, 80);
 
-	 	settings = new GLib.Settings ("com.github.alecaddd.jarvis");
+	 	settings = new GLib.Settings ("com.github.batistasilva.app10");
 
 	 	move (settings.get_int ("pos-x"), settings.get_int ("pos-y"));
 	 	resize (settings.get_int ("window-width"), settings.get_int ("window-height"));
@@ -21,7 +21,7 @@ public class Jarvis.Window : Gtk.ApplicationWindow {
 	 		return before_destroy ();
 	 	});
 
-	 	var headerbar = new Jarvis.HeaderBar ();
+	 	var headerbar = new App10.HeaderBar ();
 	 	set_titlebar (headerbar);
 
 	 	show_all ();

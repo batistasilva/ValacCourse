@@ -1,7 +1,7 @@
-public class Jarvis.HeaderBar : Gtk.HeaderBar {
-    public Jarvis.Window main_window { get; construct; }
+public class App11.HeaderBar : Gtk.HeaderBar {
+    public App11.Window main_window { get; construct; }
 
-    public HeaderBar (Jarvis.Window window) {
+    public HeaderBar (App11.Window window) {
         Object (
             main_window: window
         );

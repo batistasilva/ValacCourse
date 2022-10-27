@@ -1,7 +1,7 @@
-public class Jarvis.HeaderBar : Gtk.HeaderBar {
+public class App9.HeaderBar : Gtk.HeaderBar {
     construct {
-        title = "Jarvis";
-        subtitle = "Let me help ya!";
+        title = "App9";
+        subtitle = "Let me help ya! (App9)";
 
         show_close_button = true;
 
