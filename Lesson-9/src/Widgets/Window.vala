@@ -12,7 +12,7 @@ public class App9.Window : Gtk.ApplicationWindow {
 	 	window_position = Gtk.WindowPosition.CENTER;
 	 	set_default_size (350, 80);
 
-	 	settings = new GLib.Settings ("com.github.batistasilva.app9");
+	 	settings = new GLib.Settings ("com.app.lesson.app9");
 
 	 	move (settings.get_int ("window-x"), settings.get_int ("window-y"));
 	 	resize (settings.get_int ("window-w"), settings.get_int ("window-h"));
@@ -37,7 +37,6 @@ public class App9.Window : Gtk.ApplicationWindow {
 		settings.set_int ("window-w", width);
 		settings.set_int ("window-h", height);
         
-        stdout.printf("\nValue for Pos-x:%d and Pos-y:%d\n", x, y);
 		return false;
 	}
 }

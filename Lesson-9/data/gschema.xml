@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
- <schema path="/com/github/batistasilva/app9/" id="com.github.batistasilva.app9" gettext-domain="app9">
+ <schema path="/com/github/lesson/app9/" id="com.app.lesson.app9" gettext-domain="app9">
     <key name="window-x" type="i">
       <default>-1</default>
       <summary>Most recent x position of window</summary>

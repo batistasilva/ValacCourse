@@ -1,4 +1,4 @@
-project('com.github.batistasilva.app4', 'vala', 'c')
+project('com.app.lesson.app4', 'vala', 'c')
 
 executable(
 	meson.project_name(),

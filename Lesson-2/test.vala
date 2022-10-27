@@ -2,7 +2,7 @@ public class Test : Gtk.Application {
 
 	public Test () {
 		Object (
-			application_id: "com.github.alecaddd.test",
+			application_id: "com.app.lesson.app2",
 			flags: ApplicationFlags.FLAGS_NONE
 		);
 	}
@@ -13,7 +13,7 @@ public class Test : Gtk.Application {
 
 	private void build_window () {
 		var window = new Gtk.ApplicationWindow (this);
-	 	window.title = "This is my Vala Test";
+	 	window.title = "This is my Vala (App2)";
 	 	window.window_position = Gtk.WindowPosition.CENTER;
 	 	window.set_default_size (350, 80);
 	 	window.show_all ();

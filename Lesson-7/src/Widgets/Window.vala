@@ -12,7 +12,7 @@ public class App7.Window : Gtk.ApplicationWindow {
 	 	window_position = Gtk.WindowPosition.CENTER;
 	 	set_default_size (350, 80);
 
-	 	settings = new GLib.Settings ("com.github.batistasilva.app7");
+	 	settings = new GLib.Settings ("com.app.lesson.app7");
 
 	 	move (settings.get_int ("pos-x"), settings.get_int ("pos-y"));
 	 	resize (settings.get_int ("window-width"), settings.get_int ("window-height"));

@@ -1,4 +1,4 @@
-project('com.github.batistasilva.app6', 'vala', 'c')
+project('com.app.lesson.app6', 'vala', 'c')
 
 subdir('src')
 subdir('data')

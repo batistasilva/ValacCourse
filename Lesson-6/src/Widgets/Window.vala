@@ -1,4 +1,4 @@
-public class Jarvis.Window : Gtk.ApplicationWindow {
+public class App6.Window : Gtk.ApplicationWindow {
 
 	public Window (Application app) {
 		Object (
@@ -11,7 +11,7 @@ public class Jarvis.Window : Gtk.ApplicationWindow {
 	 	window_position = Gtk.WindowPosition.CENTER;
 	 	set_default_size (350, 80);
 
-	 	var settings = new GLib.Settings ("com.github.batistasilva.app6");
+	 	var settings = new GLib.Settings ("com.app.lesson.app6");
 
 	 	move (settings.get_int ("pos-x"), settings.get_int ("pos-y"));
 

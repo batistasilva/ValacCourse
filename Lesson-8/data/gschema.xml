@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
- <schema path="/com/github/batistasilva/app8/" id="com.github.batistasilva.app8" gettext-domain="app8">
+ <schema path="/com/github/lesson/app8/" id="com.app.lesson.app8" gettext-domain="app8">
 	<key name="pos-x" type="i">
 	 <default>360</default>
 	 <summary>Horizontal position</summary>

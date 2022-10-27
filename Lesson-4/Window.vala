@@ -7,7 +7,7 @@ public class MyApp.Window : Gtk.ApplicationWindow {
 	}
 
 	construct {
-	 	title = "This is my Vala Test";
+	 	title = "This is my Vala (App4)";
 	 	window_position = Gtk.WindowPosition.CENTER;
 	 	set_default_size (350, 80);
 
