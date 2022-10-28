@@ -1,5 +1,0 @@
-//valac hello.vala
-
-void main () {
-    print ("hello, world\n");
-}
