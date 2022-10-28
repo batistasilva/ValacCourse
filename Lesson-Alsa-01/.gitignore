@@ -3,5 +3,5 @@ test
 *.gitignore~
 *.build
 *~
-myapp
+alsa-sequencer
 build/

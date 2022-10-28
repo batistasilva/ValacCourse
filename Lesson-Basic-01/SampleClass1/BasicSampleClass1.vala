@@ -3,7 +3,7 @@ public class BasicSample : Object {
 
     /* public instance method */
     public void run () {
-        stdout.printf ("Hello World\n");
+        stdout.printf ("Hello World for First Class\n");
     }
 }
 

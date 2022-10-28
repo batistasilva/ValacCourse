@@ -1,7 +1,6 @@
 test
 *.vala~
 *.gitignore~
-*.build
-*~
-myapp
+*.build~
+num_guess
 build/
