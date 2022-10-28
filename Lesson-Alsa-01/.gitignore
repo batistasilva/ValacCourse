@@ -1,7 +1,5 @@
-test
 *.vala~
 *.gitignore~
-*.build
 *~
 alsa-sequencer
 build/

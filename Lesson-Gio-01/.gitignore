@@ -1,7 +1,4 @@
-test
 *.vala~
 *.gitignore~
-*.build
 *~
-myapp
 build/
