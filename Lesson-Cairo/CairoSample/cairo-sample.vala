@@ -6,7 +6,7 @@ public class CairoSample : Gtk.Window {
     private const int SIZE = 30;
 
     public CairoSample () {
-        this.title = "Cairo Vala Demo";
+        this.title = "Cairo Vala Demo (App1)";
         this.destroy.connect (Gtk.main_quit);
         set_default_size (450, 550);
         create_widgets ();
