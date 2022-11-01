@@ -1,0 +1,7 @@
+*.vala~
+*.gitignore~
+*~
+build/
+gdbus-demo-client
+gdbus-demo-server
+
