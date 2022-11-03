@@ -1,0 +1,6 @@
+*.vala~
+*.gitignore~
+*~
+build/
+
+
