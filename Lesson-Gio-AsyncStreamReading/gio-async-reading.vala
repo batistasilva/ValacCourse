@@ -1,7 +1,5 @@
 // valac --pkg gio-2.0 gio-async-reading.vala
-
 MainLoop main_loop;
-
 async void read_something_async (File file) {
     var text = new StringBuilder ();
     print ("Start...\n");
